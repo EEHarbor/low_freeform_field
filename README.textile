@@ -10,7 +10,7 @@ h2. Requirements
 
 h2. Installation
 
-* Download and unzip
+* "Download":http://github.com/lodewijk/low_freeform_field/zipball/v1.0.0 and unzip
 * Copy the ee1/fieldtypes/low_freeform_field folder to your system/extensions/fieldtypes directory
 * Enable the field type in your field type settings
 * For Low Variables support, enable the field type in the Low Variables extension settings, too
