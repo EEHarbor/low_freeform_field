@@ -1,0 +1,3 @@
+h1. Low Freeform Field
+
+An "ExpressionEngine":http://expressionengine.com/ add-on that creates a custom field type to select any of the available "Freeform":http://www.solspace.com/software/detail/freeform/ fields. Includes "Matrix":http://pixelandtonic.com/matrix and "Low Variables":http://loweblog.com/software/low-variables/ support. Currently available for *EE1 only*.
