@@ -1,3 +1,16 @@
 h1. Low Freeform Field
 
 An "ExpressionEngine":http://expressionengine.com/ add-on that creates a custom field type to select any of the available "Freeform":http://www.solspace.com/software/detail/freeform/ fields. Includes "Matrix":http://pixelandtonic.com/matrix and "Low Variables":http://loweblog.com/software/low-variables/ support. Currently available for *EE1 only*.
+
+h2. Requirements
+
+* ExpressionEngine 1.6
+* "FieldFrame 1.4.3":http://pixelandtonic.com/fieldframe
+* "Freeform":http://www.solspace.com/software/detail/freeform/
+
+h2. Installation
+
+* Download and unzip
+* Copy the ee1/fieldtypes/low_freeform_field folder to your system/extensions/fieldtypes directory
+* Enable the field type in your field type settings
+* For Low Variables support, enable the field type in the Low Variables extension settings, too
