@@ -18,5 +18,5 @@ h2. Installation EE2
 
 * "Download":http://github.com/lodewijk/low_freeform_field/zipball/v1.0.0 and unzip
 * Copy the ee2/low_freeform_field folder to your system/expressionengine/third_party directory
-* Enable the field type under Add-Ons --> Fieldtypes
+* Enable the field type under Add-Ons &rarr; Fieldtypes
 * For Low Variables support, enable the field type in the Low Variables extension settings, too
