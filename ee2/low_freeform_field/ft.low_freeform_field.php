@@ -8,7 +8,7 @@ require(PATH_THIRD.'low_freeform_field/config.php');
 * Low Freeform Field Fieldtype
 *
 * @package		low-freeform-field
-* @version		1.0.0
+* @version		1.0.1
 * @author		Lodewijk Schutte ~ Low <low@loweblog.com>
 * @copyright	Copyright (c) 2010, Low
 */

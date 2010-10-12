@@ -12,7 +12,7 @@
 if ( ! defined('LOW_FFF_NAME'))
 {
 	define('LOW_FFF_NAME',         'Low Freeform Field');
-	define('LOW_FFF_VERSION',      '1.0.0');
+	define('LOW_FFF_VERSION',      '1.0.1');
 	define('LOW_FFF_DOCS',         'http://github.com/lodewijk/low_freeform_field');
 }
 

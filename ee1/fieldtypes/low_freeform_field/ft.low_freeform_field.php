@@ -4,7 +4,7 @@
 * Low Freeform Field Fieldtype
 *
 * @package		low-freeform-field
-* @version		1.0.0
+* @version		1.0.1
 * @author		Lodewijk Schutte ~ Low <low@loweblog.com>
 * @copyright	Copyright (c) 2010, Low
 */
@@ -17,7 +17,7 @@ class Low_freeform_field extends Fieldframe_Fieldtype {
 	*/
 	var $info = array(
 		'name'      => 'Low Freeform Field',
-		'version'   => '1.0.0',
+		'version'   => '1.0.1',
 		'desc'      => 'Shows a single drop down field with all available Freeform Fields',
 		'docs_url'  => '',
 		'no_lang'   => TRUE
