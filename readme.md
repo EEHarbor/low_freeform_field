@@ -5,7 +5,7 @@ An [ExpressionEngine](http://expressionengine.com/) add-on that creates a custom
 ## Requirements
 
 - ExpressionEngine 1.6 with [FieldFrame 1.4.3](http://pixelandtonic.com/fieldframe) *or* ExpressionEngine 2.1+
-- [Freeform](http://www.solspace.com/software/detail/freeform/)
+- [Freeform 3](http://www.solspace.com/software/detail/freeform/)
 
 ## Installation EE1
 
