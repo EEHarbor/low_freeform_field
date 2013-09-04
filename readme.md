@@ -1,11 +1,11 @@
 # Low Freeform Field
 
-An [ExpressionEngine](http://expressionengine.com/) add-on that creates a custom field type to select any of the available [Freeform](http://www.solspace.com/software/detail/freeform/) fields. Includes [Matrix](http://pixelandtonic.com/matrix) and [Low Variables](http://gotolow.com/addons/low-variables) support.
+An [ExpressionEngine](http://expressionengine.com/) add-on that creates a custom field type to select any of the available [Freeform](http://www.solspace.com/software/detail/freeform/) fields. Includes [Low Variables](http://gotolow.com/addons/low-variables), [Matrix](http://pixelandtonic.com/matrix) and [Grid](http://ellislab.com/expressionengine/user-guide/modules/channel/grid.html) support.
 
 ## Requirements
 
 - ExpressionEngine 1.6 with [FieldFrame 1.4.3](http://pixelandtonic.com/fieldframe) *or* ExpressionEngine 2.1+
-- [Freeform 3](http://www.solspace.com/software/detail/freeform/)
+- [Freeform 3+](http://www.solspace.com/software/detail/freeform/)
 
 ## Installation EE1
 
