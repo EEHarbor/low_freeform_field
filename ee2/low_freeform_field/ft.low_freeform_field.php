@@ -96,7 +96,7 @@ class Low_freeform_field_ft extends EE_Fieldtype {
 	 */
 	public function display_field($data)
 	{
-		return $this->_display_field($data, TRUE);
+		return $this->_display_field($data);
 	}
 
 	/**
@@ -121,8 +121,33 @@ class Low_freeform_field_ft extends EE_Fieldtype {
 		return $this->_display_field($var_data);
 	}
 
+	/**
+	 * Displays the field in Grid
+	 *
+	 * @param	string
+	 * @return	string
+	 */
+	public function grid_display_field($data)
+	{
+		return $this->_display_field($data);
+	}
+
 	// --------------------------------------------------------------------
 
+	/**
+	 * Allow in Grid
+	 *
+	 * @param	string
+	 * @return	bool
+	 */
+	public function accepts_content_type($name)
+	{
+		return in_array($name, array(
+			'channel',
+			'grid',
+			'low_variables'
+		));
+	}
 }
 
 // End of file ft.low_freeform_field_ft.php
