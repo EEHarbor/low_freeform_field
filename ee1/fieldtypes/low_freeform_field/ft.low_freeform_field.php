@@ -1,20 +1,20 @@
 <?php if ( ! defined('EXT')) exit('Invalid file request');
 
 /**
-* Low Freeform Field Fieldtype
-*
-* @package		low-freeform-field
-* @version		1.0.1
-* @author		Lodewijk Schutte ~ Low <low@loweblog.com>
-* @copyright	Copyright (c) 2010, Low
-*/
+ * Low Freeform Field Fieldtype
+ *
+ * @package		low-freeform-field
+ * @version		1.0.1
+ * @author		Lodewijk Schutte ~ Low <low@loweblog.com>
+ * @copyright	Copyright (c) 2010, Low
+ */
 class Low_freeform_field extends Fieldframe_Fieldtype {
 
 	/**
-	* Basic fieldtype info
-	*
-	* @var	array
-	*/
+	 * Basic fieldtype info
+	 *
+	 * @var	array
+	 */
 	var $info = array(
 		'name'      => 'Low Freeform Field',
 		'version'   => '1.0.1',
@@ -26,12 +26,12 @@ class Low_freeform_field extends Fieldframe_Fieldtype {
 	// --------------------------------------------------------------------
 
 	/**
-	* Displays the field in publish form
-	*
-	* @param	string
-	* @param	string
-	* @return	string
-	*/
+	 * Displays the field in publish form
+	 *
+	 * @param	string
+	 * @param	string
+	 * @return	string
+	 */
 	function display_field($field_name, $field_data)
 	{
 		global $DSP, $DB;
@@ -53,26 +53,26 @@ class Low_freeform_field extends Fieldframe_Fieldtype {
 	// --------------------------------------------------------------------
 
 	/**
-	* Displays the field in matrix
-	*
-	* @param	string
-	* @param	string
-	* @return	string
-	*/
+	 * Displays the field in matrix
+	 *
+	 * @param	string
+	 * @param	string
+	 * @return	string
+	 */
 	function display_cell($cell_name, $cell_data)
 	{
 		return $this->display_field($cell_name, $cell_data);
 	}
 
 	// --------------------------------------------------------------------
-	
+
 	/**
-	* Displays the field in Low Variables
-	*
-	* @param	string
-	* @param	string
-	* @return	string
-	*/
+	 * Displays the field in Low Variables
+	 *
+	 * @param	string
+	 * @param	string
+	 * @return	string
+	 */
 	function display_var_field($var_name, $var_data, $var_settings)
 	{
 		return $this->display_field($var_name, $var_data);
