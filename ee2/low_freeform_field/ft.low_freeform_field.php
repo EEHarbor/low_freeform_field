@@ -78,7 +78,7 @@ class Low_freeform_field_ft extends EE_Fieldtype {
 			$version = $modules['freeform']['module_version'];
 
 			$fields = (version_compare($version, '4.0.0', '>='))
-				? array('`field_name` as `name`', '`field_label` as `label')
+				? array('`field_name` as `name`', '`field_label` as `label`')
 				: array('name', 'label');
 		}
 
