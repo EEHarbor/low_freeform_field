@@ -47,7 +47,7 @@ class Low_freeform_field_ft extends EE_Fieldtype {
 			// Do query
 			$query = $this->EE->db->select($this->_get_attrs())
 				->from('freeform_fields')
-				->order_by('field_order')
+				->order_by('name')
 				->get();
 
 			foreach ($query->result() AS $row)
